@@ -1,0 +1,26 @@
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./site-header.css');
+@import url('./main-content.css');
+@import url('./responsive.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.site-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+}
+
+header,
+.main-wrapper
+.modal {
+    flex: 0 1 100%;
+}
+
+.site-wrapper::-webkit-scrollbar {
+    display: none;
+}
